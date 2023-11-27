@@ -10,7 +10,7 @@ const HomePreview = ({ entry, collection, field }) => {
   return (
     <div>
       <Jumbotron image={image} title={entry.data.title} subtitle={entry.data.subtitle} />
-
+      <p>Hello World!</p>
       <div className="bg-grey-1 pv4">
         <div className="flex-l mhn1-l ph3 center mw7">
           <h2 className="f2 b lh-title mb2 w-40-l">{entry.data.blurb.heading}</h2>
